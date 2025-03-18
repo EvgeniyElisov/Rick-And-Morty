@@ -2,7 +2,7 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 import { Episode } from "./Episode/Episode"
 
-export const EpisodePage = () => {
+export const EpisodesPage = () => {
 
     const [episodes, setEpisodes] = useState(null)
 

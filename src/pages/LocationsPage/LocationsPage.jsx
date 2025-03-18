@@ -2,7 +2,7 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 import { Location } from "./Location/Location"
 
-export const LocationPage = () => {
+export const LocationsPage = () => {
 
     const [locations, setLocations] = useState(null)
 

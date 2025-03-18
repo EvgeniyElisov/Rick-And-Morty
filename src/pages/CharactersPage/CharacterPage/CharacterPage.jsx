@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
 import axios from "axios"
 import { Link, useParams } from "react-router"
-import s from "./Character.module.css"
+import s from "./CharacterPage.module.css"
 
-export const Character = () => {
+export const CharacterPage = () => {
     const { id } = useParams()
 
     const [character, setCharacter] = useState(null)
